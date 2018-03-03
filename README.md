@@ -2,6 +2,26 @@
 
 On The Fly DPI allows you change the mouse sensitivity on the fly (very quickly) by using modifier keys (hotkeys) and the mouse. ONFDPI is stand-alone application that can be used for anything that would call for changing the sensitivity quickly such as gaming (far to near sniping anyone?) or graphic design or whatever else you might think of. 
 
+## Usage
+
+ONFDPI runs in the system tray where there's a help selection with the listed hotkeys and other info and selections to restart and exit the program. 
+
+## Hotkeys (not perfected yet, but I think they're suitable for now)
+```
+Raise Sensitivity:
+[Control]+[Alt]+Mouse Wheel Up                       +1 Sensitivity
+[Control]+[Shift]+Mouse Wheel Up 		     +2 Sensitivity
+[Shift]+[Alt]+(Mouse Wheel Up Or XButton2)	     Max Sensitivity
+
+Lower Sensitivity:
+[Control]+[Alt]+Mouse Wheel Down		     -1 Sensitivity
+[Control]+[Shift]+Mouse Wheel Down		     -2 Sensitivity
+[Shift]+[Alt]+(Mouse Wheel Up Or XButton2)	      Min Sensitivity
+
+Default:
+[Control]+[Alt]+Click Mouse Button		      Reset to default
+```
+
 ## Example Code - Function I wrote to get and set the mouse dpi (1-20, 10 being default)
 
 ```
