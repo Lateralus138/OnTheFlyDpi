@@ -56,3 +56,6 @@ Ian Pride @ faithnomoread@yahoo.com - [Lateralus138] @ New Pride Services
     GNU General Public License for more details.
 
 	License provided in gpl.txt
+
+## Current Release
+[On The Fly DPI](https://github.com/Lateralus138/OnTheFlyDpi/raw/master/OnTheFlyDPI.exe)
