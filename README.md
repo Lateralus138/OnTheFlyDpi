@@ -8,18 +8,18 @@ ONFDPI runs in the system tray where there's a help selection with the listed ho
 
 ## Hotkeys (not perfected yet, but I think they're suitable for now)
 ```
-Raise Sensitivity:
-[Control]+[Alt]+Mouse Wheel Up                       +1 Sensitivity
-[Control]+[Shift]+Mouse Wheel Up 		     +2 Sensitivity
-[Shift]+[Alt]+(Mouse Wheel Up Or XButton2)	     Max Sensitivity
+Raise Sensitivity: Mouse Wheel Up Or XButton2
+[Control]+[Alt]+	+1 Sensitivity
+[Control]+[Shift]+	+2 Sensitivity
+[Shift]+[Alt]+		Max Sensitivity
 
-Lower Sensitivity:
-[Control]+[Alt]+Mouse Wheel Down		     -1 Sensitivity
-[Control]+[Shift]+Mouse Wheel Down		     -2 Sensitivity
-[Shift]+[Alt]+(Mouse Wheel Up Or XButton2)	      Min Sensitivity
+Lower Sensitivity: Mouse Wheel Down Or XButton1
+[Control]+[Alt]+	-1 Sensitivity
+[Control]+[Shift]+	-2 Sensitivity
+[Shift]+[Alt]+		Min Sensitivity
 
-Default:
-[Control]+[Alt]+Click Mouse Button		      Reset to default
+Default: Click Mouse Button
+[Control]+[Alt]+	Reset to default
 ```
 
 ## Example Code - Function I wrote to get and set the mouse dpi (1-20, 10 being default)
