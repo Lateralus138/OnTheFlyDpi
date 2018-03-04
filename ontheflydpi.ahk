@@ -24,18 +24,18 @@ The sensitivity settings are in the range 1-20 with
 
 Hotkeys:
 
-Raise Sensitivity:
-[Control]+[Alt]+Mouse Wheel Up%A_TAB%%A_TAB%%A_TAB%+1 Sensitivity
-[Control]+[Shift]+Mouse Wheel Up%A_TAB%%A_TAB%%A_TAB%+2 Sensitivity
-[Shift]+[Alt]+(Mouse Wheel Up Or XButton2)%A_TAB%%A_TAB%Max Sensitivity
+Raise Sensitivity: Mouse Wheel Up Or XButton2
+[Control]+[Alt]+%A_TAB%%A_TAB%%A_TAB%+1 Sensitivity
+[Control]+[Shift]+%A_TAB%%A_TAB%%A_TAB%+2 Sensitivity
+[Shift]+[Alt]+%A_TAB%%A_TAB%%A_TAB%Max Sensitivity
 
-Lower Sensitivity:
-[Control]+[Alt]+Mouse Wheel Down%A_TAB%%A_TAB%%A_TAB%-1 Sensitivity
-[Control]+[Shift]+Mouse Wheel Down%A_TAB%%A_TAB%%A_TAB%-2 Sensitivity
-[Shift]+[Alt]+(Mouse Wheel Up Or XButton2)%A_TAB%%A_TAB%Min Sensitivity
+Lower Sensitivity: Mouse Wheel Down Or XButton1
+[Control]+[Alt]+%A_TAB%%A_TAB%%A_TAB%-1 Sensitivity
+[Control]+[Shift]+%A_TAB%%A_TAB%%A_TAB%-2 Sensitivity
+[Shift]+[Alt]+%A_TAB%%A_TAB%%A_TAB%Min Sensitivity
 
-Default:
-[Control]+[Alt]+Click Mouse Button%A_TAB%%A_TAB%%A_TAB%Reset to default
+Default: Click Mouse Button
+[Control]+[Alt]+%A_TAB%%A_TAB%%A_TAB%Reset to default
 )
 
 
@@ -51,18 +51,22 @@ OnMessage(0x200,"WM_MOUSEHOVER")
 
 ; Hotkeys
 ^!WheelUp::
+^!XButton2::
 	ToolTip,% "Current mouse speed: " MouseDpi(MouseDpi()+1),,,20
 	SetTimer,EndTooltip,-500
 Return
 ^!WheelDown::
+^!XButton1::
 	ToolTip % "Current mouse speed: "  MouseDpi(MouseDpi()-1),,,20
 	SetTimer,EndTooltip,-500
 Return
 ^+WheelUp::
+^+XButton2::
 	ToolTip,% "Current mouse speed: " MouseDpi(MouseDpi()+2),,,20
 	SetTimer,EndTooltip,-500
 Return
 ^+WheelDown::
+^+XButton1::
 	ToolTip % "Current mouse speed: "  MouseDpi(MouseDpi()-2),,,20
 	SetTimer,EndTooltip,-500
 Return
