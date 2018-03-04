@@ -1,3 +1,6 @@
+## Current Release
+[On The Fly DPI](https://github.com/Lateralus138/OnTheFlyDpi/raw/master/OnTheFlyDPI.exe)
+
 ## On The Fly DPI
 
 On The Fly DPI allows you change the mouse sensitivity on the fly (very quickly) by using modifier keys (hotkeys) and the mouse. ONFDPI is stand-alone application that can be used for anything that would call for changing the sensitivity quickly such as gaming (far to near sniping anyone?) or graphic design or whatever else you might think of. 
@@ -76,6 +79,3 @@ Ian Pride @ faithnomoread@yahoo.com - [Lateralus138] @ New Pride Services
     GNU General Public License for more details.
 
 	License provided in gpl.txt
-
-## Current Release
-[On The Fly DPI](https://github.com/Lateralus138/OnTheFlyDpi/raw/master/OnTheFlyDPI.exe)
